@@ -1,0 +1,53 @@
+.PageTwo{
+    color: BLACK;
+}
+
+
+h1{
+    letter-spacing: 1px;
+    display: block;
+    padding: 100px 0 0;
+    
+}
+.P{
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 28px;
+    margin: 3% 30%;
+}
+p1{
+    font-size: small; 
+    word-spacing: 3px;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+p1::after {
+    content: "";
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: bottom;
+    width: 10%;
+    margin-right: -1%;
+    border-top: 1px solid rgb(59, 59, 59);
+}
+.P2{
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 28px;
+    margin: 5px 30%;
+}
+h2{
+    letter-spacing: 1px;
+    display: block;
+    padding: 80px 0 0;
+    
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 2.8% 0;
+}
