@@ -53,4 +53,8 @@ img{
 }
 .ic:hover{
     font-size: small;
+    cursor: pointer;
+}
+.ice:hover {
+    cursor: pointer;
 }

@@ -18,20 +18,20 @@ export default function LastPage(){
       <Row >
         <Col className="m-5">
         PRODUCTS
-        <div><FontAwesomeIcon icon={faAngleDown} size="2xl"  /></div>
+        <div><FontAwesomeIcon icon={faAngleDown} size="2xl" className="ice" /></div>
         </Col>
         <Col className="m-3">
         CUSTOMERS
-         <div><FontAwesomeIcon icon={faAngleDown} size="2xl"  /></div>
+         <div><FontAwesomeIcon icon={faAngleDown} size="2xl" className="ice" /></div>
         </Col>
         <Col className="m-5">
         COMPANY
-         <div><FontAwesomeIcon icon={faAngleDown} size="2xl"  /></div>
+         <div><FontAwesomeIcon icon={faAngleDown} size="2xl" className="ice" /></div>
         </Col>
         <Row>
         <Col>
         COMMUNITY
-         <div><FontAwesomeIcon icon={faAngleDown} size="2xl" /></div>
+         <div><FontAwesomeIcon icon={faAngleDown} size="2xl" className="ice" /></div>
         </Col>
         <Col className="m-5">
         <FontAwesomeIcon icon={faFacebook}  size="xl"   className="ic m-1 mx-3"/>
