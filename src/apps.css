@@ -5,8 +5,10 @@
   font-family: var(--main-font);
   text-align: center;
   color:rgb(226, 223, 223);
-  background-color: rgb(226,226,226);
   width: 100%;
+}
+.all{
+   background-color: rgb(226,226,226);
 }
 .apps{
   background-image: url("img/pic2.jpg");
@@ -30,3 +32,24 @@
   margin: 0 30px 40px;
   
 }
+.Uns {
+  color: black;
+  margin: 40%  30% 0 0;
+  font-size: 80px;
+}
+.unsu{
+  color: black;
+  font-size: large;
+}
+@media  (max-width:600px) {
+  .all{
+    display:none;
+  }
+}
+@media (min-width: 599px) { 
+  .Uns, 
+  .unsu{
+    display: none;
+  }
+ }
+

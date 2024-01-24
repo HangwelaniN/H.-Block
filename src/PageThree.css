@@ -3,7 +3,13 @@
     color: black;
 }
 .pageFour{
+   
     color: black;
+}
+.LastPage{
+    color: white;
+    margin-top: 40px;
+    background-color: black;
 }
 
 p{
