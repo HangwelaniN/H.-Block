@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import { faTruckMonster } from '@fortawesome/free-solid-svg-icons'
-import { faSpinner } from '@fortawesome/free-solid-svg-icons'
+import { faMobileScreen } from '@fortawesome/free-solid-svg-icons'
 import PageTwo from './PageTwo';
 import PageThree from './PageThree';
 import PageFour from './PageFour'
@@ -19,13 +18,13 @@ function App() {
   return (
     <div className="App">
      <div className="Uns">
-        <FontAwesomeIcon icon={faTruckMonster} spin size='2xl'  /> 
+     <FontAwesomeIcon icon={faMobileScreen} />
+     <FontAwesomeIcon icon={faMobileScreen} rotation={90} className='px-5 mx-2'/>
       </div>
       <Container>
       <Row>
         <Col className="unsu"> 
-         💔Sorry this website is not supported
-          on small devices    <FontAwesomeIcon icon={faSpinner} spinPulse />
+       Rotate your phone    (˵ •̀ ᴗ - ˵ ) ✧.... 
         </Col>
       </Row>
     </Container>
