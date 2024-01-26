@@ -18,12 +18,9 @@ import Col from 'react-bootstrap/Col';
 function App() {
   return (
     <div className="App">
-      <div className="Uns">
-      <FontAwesomeIcon icon={faTruckMonster} spin size='2xl'  /> 
-      <br />
+     <div className="Uns">
+        <FontAwesomeIcon icon={faTruckMonster} spin size='2xl'  /> 
       </div>
-      <br />
-      <br />
       <Container>
       <Row>
         <Col className="unsu"> 
@@ -32,12 +29,8 @@ function App() {
         </Col>
       </Row>
     </Container>
-
-     
-      
       <div className='all'>
-
-      <div className="apps">
+        <div className="apps">
     <h1 className="d-flex justify-content-start fs-3 mx-2 p-3 fw-bolder">HangwelaniN</h1>
      <div className='contain'>
     <h2 className="head pb-3">Tell your story</h2>
